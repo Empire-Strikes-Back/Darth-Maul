@@ -17,4 +17,13 @@ main(){
     -M -m weekend.main
 }
 
+uberjar(){
+  clj \
+    -X:uberjar genie.core/process \
+    :uberjar-name out/weekend.standalone.jar \
+    :main-ns weekend.main
+  mkdir -p out/jpackage-input
+  mv out/weekend.standalone.jar out/jpackage-input/
+}
+
 "$@"
