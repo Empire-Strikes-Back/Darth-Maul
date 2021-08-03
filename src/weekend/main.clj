@@ -32,7 +32,7 @@
         (.setSize 1600 1200)
         (.setLocationByPlatform true)
         (.setVisible true))
-      (alter-var-root #'weekend/jframe (constantly jframe)))
+      (alter-var-root #'weekend.main/jframe (constantly jframe)))
 
     (go)))
 
