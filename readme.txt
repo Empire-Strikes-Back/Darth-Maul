@@ -1,4 +1,1 @@
-i am weekend program - i am desktop edition of DeathStarGame
-
-i am jvm desktop program
-i use cljfx library
+if the trace was correct, i will find them quickly, master
